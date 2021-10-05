@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "4365e005-d5f6-446b-9d18-a21ff3c5d934",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\n\t\t\"name\": \"test1\",\n\t\t\"id\": \"1\",\n\t\t\"age\": \"20\"\n\t},\n\t{\n\t\t\"name\": \"test2\",\n\t\t\"id\": \"2\",\n\t\t\"age\": \"5\"\n\t},\n\t{\n\t\t\"name\": \"test3\",\n\t\t\"id\": \"3\",\n\t\t\"age\": \"7\"\n\t},\n\t{\n\t\t\"name\": \"test4\",\n\t\t\"id\": \"4\",\n\t\t\"age\": \"30\"\n\t}\n\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/demo/10/filter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"demo",
+						"10",
+						"filter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
